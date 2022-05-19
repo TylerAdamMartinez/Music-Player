@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.colors{
+    --primary: #FF008A;
+    --secondary: #FFFFFF;
+}
+
+.homeHeader{
+    --primary: #FF008A;
+    --secondary: #FFFFFF;
+    color: var(--primary);
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    font-size: 50px;
+}
+
+.container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    height:100vh;
+    width:100vw;
+    display: grid;
+    grid-template-rows: 100px 1fr 120px;
+    grid-template-columns: 1fr 500px 500px 1fr;
+    gap: 0px;
+    background-color: #100f0f;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+
+    grid-row: 1;
+    grid-column: 2/4;
+    /*background-color: yellow;*/
+}
+
+.menuIcon{
+    position: absolute;
+    top: 4%;
+    
+    color: white;
+    width: 45px;
+    height: 45px;
+    grid-row: 1;
+    grid-column: 4;
+}
+
+.menuIcon:hover{
+    color: grey;
+}
+
+.allSongs{
+    grid-row: 2;
+    grid-column: 2/3;
+    /*background-color: red;*/
+}
+
+.recentlyPlayed{
+    grid-row: 2;
+    grid-column: 3/4;
+    /*background-color: blue;*/
+}
+
+.footer{
+    grid-row: 3;
+    grid-column: 1 / -1;
+    background-image: linear-gradient(transparent, #282828);
+    border-top: 2px solid #282828;
+    /*background-color: green;*/
+}
+
+.songsContainer{
+    display: grid;
+    margin: 0;
+    padding: 0;
+    border-radius: 0px;
+    height: 530px;
+    width: 500px;
+    grid-template-rows: 40px 500px;
+    grid-template-columns: 25px 1fr 25px;
+    /*background-color: yellow;*/
+}
+
+.audioListTitleText{
+    --primary: #FF008A;
+    --secondary: #FFFFFF;
+    color: var(--secondary);
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    text-align: center;
+    grid-row: 1;
+    grid-column: 1/-1;
+    /*background-color: blue;*/
+}
+
+.songsStorageBox{
+    width: 450px;
+    height: 480px;
+    grid-row: 2;
+    grid-column: 2;
+    overflow: auto;
+    background-color: #1B1B1B;
+}
+
+.storageBoxText{
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 5px;
+    padding-left: 10px;
+    color: white;
+}
+
+.storageBoxText:hover{
+    color: #FF008A;
+    cursor: pointer;
+    /*border-top: 3px solid #282828;
+    border-bottom: 3px solid #282828;*/
+}
+
+
+/*
+@media screen and (max-width: 800px) {
+    css sylte here... 
+    .container {
+        grid: refactor your grid
+    
+}
+*/
