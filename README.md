@@ -1,4 +1,10 @@
-# CSCE 3110 Final project (*Music Player*)
+# <p align="center"> CSCE 3110 Final project (*Music Player*)
+
+<p align="center" style="display: flex;" >
+<img src="https://visitor-badge.glitch.me/badge?page_id=tyleradammartinez.Music-Player" />
+ <a href="https://github.com/TylerAdamMartinez/Music-Player/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/TylerAdamMartinez/Music-Player"></a>
+<img alt="GitHub package.json dependency version (prod)" src="https://img.shields.io/github/package-json/dependency-version/tyleradammartinez/Music-Player/react">
+ </p>
 
 ### Class Info
  ```json
