@@ -43,3 +43,8 @@
 1. Go to the project's root directory
 2. Run the terminal command: `npm run tauri dev`
 3. A Tauri app will appear
+
+---
+
+#### On MacOS Montery 12.3.1
+<p align="center" ><img src="https://github.com/TylerAdamMartinez/Music-Player/blob/main/README-assets/music-player-mac.gif" /></p>
